@@ -8,7 +8,7 @@
  - Audio jack or cable wired to Daisy Seed audio out_0 (Pin 18) + AGND (Pin 20)
  - Headphones or speaker connected to afore mentioned jack or cable (line level signal)
 
-<img src="https://user-images.githubusercontent.com/684617/408843563-d9293aa4-dca4-4c62-b279-e9ed231157bf.png"><img>
+![HardwareSetup](https://github.com/user-attachments/assets/8f38cbd2-f173-4d8e-b681-1b4cf840e8a0)
 
 
 #### To use with out compiling
@@ -20,7 +20,8 @@ You probably will need to use [Zadig](https://zadig.akeo.ie/) to select WinUSB d
 
 ### Control and Using
 Included is a Virtual Midi instrument made in PyGame
-<img src="https://user-images.githubusercontent.com/684617/408843810-bc6c1e29-e377-4d2f-b15d-08229e8435c2.jpg"><img>
+
+![CLI Command and PyGame GUI](https://github.com/user-attachments/assets/a638dd5f-3c8a-4fc7-b87b-ef6473b5d6ab)
 
 `PyGameMidiKeyboard.py` can be used to created MIDI events to stimulate the synth.
 
