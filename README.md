@@ -39,7 +39,7 @@ Roughly the required steps:
  - Open `gitbash` , edit and run the following to add the build tools to Bash's environment $PATH var. Remembering to provide your own value for DAISY_TOOLCHAIN_DIR
  ```
 export DAISY_TOOLCHAIN_DIR="/c/...../DaisyToolchain"
-export PATH="%DAISY_TOOLCHAIN_DIR%/bin:$PATH"
+export PATH="$DAISY_TOOLCHAIN_DIR/bin:$PATH"
 ```
 - `git clone --recurse-submodules` the `https://github.com/electro-smith/DaisyExamples` and run `rebuild_all.sh`
 - modify the `Makefile` in this folder so that these paths point to the correct path where libDaisy and DaisySP have been compiled to e.g. where you cloned `DaisyExamples` repo to.
